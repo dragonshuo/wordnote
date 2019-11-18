@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+        <Button
+            android:id="@+id/send_request"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="send request"
+            />
+        <Button
+            android:id="@+id/b_word_add"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="add word from network"
+            />
+        <Button
+            android:id="@+id/b_word_find"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="find word from database"
+            />
+        <Button
+            android:id="@+id/b_word_delete"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="delete from database"
+            />
+        <Button
+            android:id="@+id/b_word_update"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="update the database"
+            />
+        <Button
+            android:id="@+id/content_provider"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:text="contentprovider"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/response_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

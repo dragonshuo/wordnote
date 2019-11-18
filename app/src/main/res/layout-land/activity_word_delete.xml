@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+    <EditText
+        android:id="@+id/delete_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入删除的单词或者中文"
+        />
+    <Button
+        android:id="@+id/delete_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        />
+    </LinearLayout>>
+    <TextView
+        android:id="@+id/delete_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前无消息"
+        />
+</LinearLayout>
